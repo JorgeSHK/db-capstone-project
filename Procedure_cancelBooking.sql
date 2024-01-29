@@ -6,7 +6,7 @@ BEGIN
     DELETE FROM Bookings
     WHERE BookingID = booking_id;
 
-    SELECT 'Booking canceled successfully!' AS Status;
+    --SELECT 'Booking canceled successfully!' AS Status;
 END //
 
 DELIMITER ;
