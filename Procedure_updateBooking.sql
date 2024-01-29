@@ -7,7 +7,7 @@ BEGIN
     SET BookingDate = new_booking_date
     WHERE BookingID = booking_id;
 
-    SELECT 'Booking updated successfully!' AS Status;
+    -- SELECT 'Booking updated successfully!' AS Status;
 END //
 
 DELIMITER ;
